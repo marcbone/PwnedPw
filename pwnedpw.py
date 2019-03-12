@@ -26,9 +26,9 @@ if __name__ == "__main__":
     if leaks == 0:
         print("your password has not been leaked.")
     elif leaks == 1:
-        print("Your password has been leakes {} times".format(leaks))
+        print("Your password has been leaked one time".format(leaks))
     elif leaks > 1:
-        print("Your password has been leakes {} times".format(leaks))
+        print("Your password has been leaked {} times".format(leaks))
     else:
         print("Error this should not happen")
 
